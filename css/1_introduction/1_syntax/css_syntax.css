@@ -1,0 +1,39 @@
+body {
+    background-color: #b9b9b9;
+    color: #343434;
+    font-family: Tahoma, serif;
+}
+
+legend {
+    font-size: 22px;
+    background-color: #747474;
+    color: #000000;
+}
+
+fieldset {
+    background-color: #747474;
+    color: azure;
+    /*间距*/
+    margin: 1em auto;
+}
+
+/*id选择器*/
+#id_1 {
+    color: #0022ff;
+    text-align: right;
+}
+
+/*选中所有带center属性的原色*/
+.center .color {
+    text-align: left;
+    color: #0022ff;
+}
+
+hr {
+    color: #15cbcb;
+    height: 1px;;
+}
+
+#id_3 {
+    text-align:right;
+}

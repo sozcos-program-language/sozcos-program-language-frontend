@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 基本语法</title>
+    <link href="css_syntax.css" rel="stylesheet">
+    <style>
+        #id_2 {
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+<h3>CSS 规则由两个主要的部分构成：选择器，以及一条或多条声明:</h3>
+<img alt="css 语法组成" width="450px"
+     src="https://www.runoob.com/wp-content/uploads/2013/07/632877C9-2462-41D6-BD0E-F7317E4C42AC.jpg">
+
+<fieldset>
+    <legend>ID 选择器</legend>
+    <p>使用 #{id} 来选中元素</p>
+    <label>
+        <p id="id_1">标签1号</p>
+    </label>
+</fieldset>
+
+
+<fieldset>
+    <legend>Class 选择器</legend>
+    <p>.center {text-align:center;} 来选中元素, 所有拥有 center 类的 HTML 元素均为居中</p>
+    <label>
+        <p>标签2号</p>
+    </label>
+    <p>使用 p.center {text-align:center;} 来选中元素</p>
+    <label>
+        <p>标签3号</p>
+    </label>
+</fieldset>
+
+<hr>
+
+<h2>样式表的引入</h2>
+
+<fieldset>
+    <legend>外部样式表</legend>
+    <p>当样式需要应用于很多页面时，外部样式表将是理想的选择。
+        在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用
+        link 标签链接到样式表。link 标签在（文档的）头部：
+    </p>
+</fieldset>
+<fieldset>
+    <legend>内部样式表</legend>
+    <p id="id_2">当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 &lt;style&gt;
+        标签在文档头部定义内部样式表</p>
+</fieldset>
+
+<fieldset>
+    <legend>内联样式表</legend>
+    <p style="background-color: #c7254e">标签的style元素拥有所有的css属性,通过使用style元素对单据的标签进行样式设置</p>
+</fieldset>
+
+<fieldset>
+    <legend>多重样式表</legend>
+    <p style="background-color: blueviolet" id="id_3">当不同的样式表描述同一个元素的时候, 他们的样式属性会被继承</p>
+    <p>优先级:</p>
+    <p>（内联样式）Inline style > （内部样式）Internal style sheet >（外部样式）External style sheet > 浏览器默认样式</p>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    /*background-color: #b9b9b9;*/
+    /*background-image: url("../../imgs/moon.png");*/
+    /*水平或垂直平铺*/
+    /*background-repeat:repeat-x;;*/
+    /*改变图像在背景中的位置*/
+    /*background-position:right top;*/
+    /*背景简写*/
+    background: #b9b9b9 url("../../imgs/moon.png") repeat top;
+    color: #ffffff;
+    font-family: Tahoma, serif;
+}
+
+legend {
+    font-size: 22px;
+    background-color: #747474;
+    color: #000000;
+}
+
+fieldset {
+    background-color: #747474;
+    color: azure;
+    /*间距*/
+    margin: 1em auto;
+}
+
+a {
+    color: cadetblue;
+}

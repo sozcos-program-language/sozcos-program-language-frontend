@@ -1,0 +1,43 @@
+body {
+    background: url("../../imgs/moon.png");
+    color: #ffffff;
+    font-family: Tahoma, serif;
+}
+
+legend {
+    font-size: 22px;
+    background-color: #747474;
+    color: #ffffff;
+    text-align: left;
+}
+
+fieldset {
+    background-color: #747474;
+    color: azure;
+    margin: 1em auto;
+}
+
+p.subTitle {
+    font-size: 27px;
+}
+
+a.title {
+    color: cadetblue;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a.a_2 {
+    text-decoration: overline;
+}
+
+a.a_3 {
+    text-decoration: line-through;
+}
+
+a.a_4 {
+    text-decoration: underline;
+}
