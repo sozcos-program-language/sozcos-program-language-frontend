@@ -1,21 +1,29 @@
-# 编程语言之旅: HTML/CSS/JS
+# 编程语言之旅: HTML/[CSS]/[JS]
 
-### [路线图](https://objtube.github.io/front-end-roadmap/#/)
+### [前端学习在线路线图](https://objtube.github.io/front-end-roadmap/#/)
+
+---
 
 # HTML
+
+| 教程        | 练习               | 手册            |
+|-----------|------------------|---------------|
+| [HTML 教程] | [通过创建猫咪相册学习HTML] | [HTML 标签参考手册] |
+|           | [通过创建注册表单学习HTML] | [HTML 全局属性]   |
 
 ---
 
 # CSS
 
-### [CSS 属性速查](https://www.runoob.com/css/css-font.html)
+| 教程       | 练习                  | 手册         |
+|----------|---------------------|------------|
+| [CSS 教程] | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查] |
+|          | [通过创建一组彩色笔练习 CSS]   |            |
 
-### [前端学习在线路线图](https://objtube.github.io/front-end-roadmap/#/)
-
-### [CSS 基础练习: 咖啡菜单案例]
 
 > 每个元素,每个元素的属性都可以选定并且赋予样式, 元素之间也有一些规则需要各种组合来抵消
-- ## [第一章: CSS 入门](css/1_introduction/README.md) -
+
+- ## [第一章: CSS 入门](css/1_introduction/README.md)
     - ### [CSS 属性选择器](css/1_introduction/1_syntax/README.md) - 选中目标元素进行样式配置
     - ### [CSS 背景属性: background](css/1_introduction/2_background/README.md) - 元素的背景样式
     - ### [CSS 文本属性: text](css/1_introduction/3_text/README.md) - 文字上下中划线
@@ -44,5 +52,27 @@
 
 ---
 
-[CSS 基础练习: 咖啡菜单案例]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu
 
+[HTML 教程]: https://www.runoob.com/html/html-tutorial.html
+
+[通过创建猫咪相册学习HTML]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1
+
+[通过创建注册表单学习HTML]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1
+
+[HTML 标签参考手册]: https://www.runoob.com/tags/html-reference.html
+
+[HTML 全局属性]:https://www.runoob.com/tags/ref-standardattributes.html
+
+
+[通过创建咖啡店菜单学习基础 CSS]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu
+
+[通过创建一组彩色笔练习 CSS]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-1
+
+[CSS 属性速查]: https://www.runoob.com/css/css-font.html
+
+[CSS 教程]: https://www.runoob.com/css/css-tutorial.html
+
+[CSS]: css/README.md
+
+
+[JS]: js/README.md
