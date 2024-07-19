@@ -1,0 +1,9 @@
+label {
+    /*这个属性将<label>标签的显示方式设置为弹性布局（Flexbox）。
+    这意味着<label>标签内的子元素可以灵活地进行布局，
+    例如改变它们的顺序或者对齐方式。*/
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
