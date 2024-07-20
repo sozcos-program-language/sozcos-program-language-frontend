@@ -1,3 +1,19 @@
+body{
+    background-color: #262644;
+    color: #f2f2f2;
+}
+
+h1{
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+#description{
+    text-align: center;
+    font-family: "times", Times, serif;
+    font-style: italic;
+}
+
 label {
     /*这个属性将<label>标签的显示方式设置为弹性布局（Flexbox）。
     这意味着<label>标签内的子元素可以灵活地进行布局，
