@@ -15,10 +15,12 @@
 
 # CSS
 
-| 教程       | 练习                  | 手册         |
-|----------|---------------------|------------|
-| [CSS 教程] | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查] |
-|          | [通过创建一组彩色笔练习 CSS]   |            |
+| 教程            | 练习                  | 手册            |
+|---------------|---------------------|---------------|
+| [CSS 教程]      | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查]    |
+| [十七分钟CSS快速入门] | [通过创建一组彩色笔练习 CSS]   | [MDN-CSS属性列表] |
+
+#### [CSS现状和如何学习](https://w3cplus.medium.com/css%E7%8E%B0%E7%8A%B6%E5%92%8C%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0-1ac786328761)
 
 ---
 
@@ -43,7 +45,6 @@
     - ### [CSS 布局: Position 定位](css/2_foundation/2_position/README.md) - 元素可以放在页面上的任何位置
     - ### [CSS 布局: Float 浮动](css/2_foundation/3_float/README.md)
     - ### [CSS 网页布局](css/2_foundation/4_web_foundation/README.md)
-
 
 ---
 
@@ -70,6 +71,7 @@
 
 [HTML 全局属性]:https://www.runoob.com/tags/ref-standardattributes.html
 
+[十七分钟CSS快速入门]: https://www.bilibili.com/video/BV1Ci4y1W7H7/?spm_id_from=333.337.search-card.all.click&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f
 
 [通过创建咖啡店菜单学习基础 CSS]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu
 
@@ -81,6 +83,7 @@
 
 [CSS]: css/README.md
 
+[MDN-CSS属性列表]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 [JS]: js/README.md
 
