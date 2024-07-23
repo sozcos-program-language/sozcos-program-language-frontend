@@ -20,6 +20,7 @@
 | [CSS 教程] | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查] |
 |          | [通过创建一组彩色笔练习 CSS]   |            |
 
+---
 
 > 每个元素,每个元素的属性都可以选定并且赋予样式, 元素之间也有一些规则需要各种组合来抵消
 
@@ -46,9 +47,15 @@
 
 ---
 
+
 # JavaScript
 
+| 教程      | 练习 | 手册 |
+|---------|----|----|
+| [JS 教程] |    |    |
 
+- ## [JavaScript 入门](js/1_introduction/README.md)
+  - ### [JS 入门: 基本语法](js/1_introduction/1_vocabulary/README.md)
 
 ---
 
@@ -76,3 +83,5 @@
 
 
 [JS]: js/README.md
+
+[JS 教程]: https://zh.javascript.info/

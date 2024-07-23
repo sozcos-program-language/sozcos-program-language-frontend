@@ -19,7 +19,7 @@
 - #### 动画、transition
 
 > 每个元素,每个元素的属性都可以选定并且赋予样式, 元素之间也有一些规则需要各种组合来抵消
-- ## [第一章: CSS 入门](1_introduction/README.md) -
+- ## [第一章: CSS 入门](1_introduction/README.md)
     - ### [CSS 属性选择器](1_introduction/1_syntax/README.md) - 选中目标元素进行样式配置
     - ### [CSS 背景属性: background](1_introduction/2_background/README.md) - 元素的背景样式
     - ### [CSS 文本属性: text](1_introduction/3_text/README.md) - 文字上下中划线
