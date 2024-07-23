@@ -4,7 +4,7 @@
 
 ---
 
-## <script> 标签
+## script 标签
 
 > 在 html 内部编写 js 脚本
 

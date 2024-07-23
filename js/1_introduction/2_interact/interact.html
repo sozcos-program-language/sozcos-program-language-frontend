@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js 入门: 交互</title>
+    <script src="interact.js"></script>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        div{
+            font-size: 20px;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div>
+    弹窗:
+    <label>
+        <input type="submit" value="点击弹窗" onclick="myAlert('我是alert')">
+    </label>
+</div>
+
+<div>
+    带标题的弹窗:
+    <label>
+        <input type="submit" value="点击弹窗" onclick="myPrompt('我是alert')">
+    </label>
+</div>
+</body>
+</html>
