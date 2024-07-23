@@ -16,3 +16,12 @@ function myPrompt(content) {
 
     alert(`You are ${age} years old!`);
 }
+/**
+ * 带标题以及内容弹窗
+ * @param content
+ */
+function myConfirm(content) {
+    let isBoss = confirm("Are you the boss?");
+
+    alert( isBoss ); // 如果“确定”按钮被按下，则显示 true
+}
