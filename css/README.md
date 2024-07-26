@@ -1,10 +1,27 @@
 # 编程语言之旅 CSS
 
-### [CSS 属性速查](https://www.runoob.com/css/css-font.html)
+<table>
+<tr>
+<td>
 
-### [前端学习在线路线图](https://objtube.github.io/front-end-roadmap/#/)
+| 外部资料               |
+|:-------------------|
+| [CSS 属性笔记]         |
+| [CSS 属性速查]         |
+| [前端学习在线路线图]        |
+| [CSS 基础练习: 咖啡菜单案例] |
 
-### [CSS 基础练习: 咖啡菜单案例]
+</td><td>
+
+| 练习                          |
+|:----------------------------|
+| [使用 CSS 和盒子模型，创作罗斯科风格的矩形作品] |
+| [通过创建照片集学习 CSS 弹性盒子]        |
+| [通过创建营养标签学习排版]              |
+
+</td></tr> 
+</table>
+
 
 ---
 
@@ -43,4 +60,17 @@
 
 ---
 
+[CSS 属性笔记]: CSS_Properties_Manual.md
+
+[CSS 属性速查]: https://www.runoob.com/css/css-font.html
+
+[前端学习在线路线图]: https://objtube.github.io/front-end-roadmap/#/
+
+
 [CSS 基础练习: 咖啡菜单案例]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menu
+
+[使用 CSS 和盒子模型，创作罗斯科风格的矩形作品]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-1
+
+[通过创建照片集学习 CSS 弹性盒子]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1
+
+[通过创建营养标签学习排版]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-1

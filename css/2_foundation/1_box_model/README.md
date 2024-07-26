@@ -8,7 +8,7 @@
 - Content(内容) - 盒子的内容，显示文本和图像。
 
 ![](https://www.runoob.com/images/box-model.gif)
-
+<img src="https://cdn.freecodecamp.org/curriculum/css-box-model/diagram-3.png">
 ```css
 div {
     width: 300px;
