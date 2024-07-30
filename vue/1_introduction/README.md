@@ -4,6 +4,8 @@
 
 ### [VUE3 教程](https://www.runoob.com/vue3/vue3-tutorial.html)
 
+### [VUE3 视频教程](https://www.bilibili.com/video/BV1Za4y1r7KE?p=5&spm_id_from=pageDriver&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f)
+
 ---
 
 ## [项目结构介绍](directory-structure.md)
