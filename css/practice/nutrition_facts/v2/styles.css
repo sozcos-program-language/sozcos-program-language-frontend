@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b32;
+    color: orangered;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+    border: 2px solid orangered;
+    width: 270px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hrider{
+    border: 1px solid #0aba4e;
+}
