@@ -12,12 +12,35 @@ body {
     border: 2px solid orangered;
     width: 270px;
     margin: auto;
+    padding: 5px;
 }
 
 h1 {
     text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
 }
 
-.hrider{
-    border: 1px solid #0aba4e;
+.divider{
+    border-bottom: 1px solid #0aba4e;
+    margin: 2px 0;
+}
+
+.large{
+    height: 10px;
+    border: 0;
+    background-color: orangered;
+}
+
+
+
+
+.bold{
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
