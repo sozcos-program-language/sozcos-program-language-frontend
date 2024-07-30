@@ -1,0 +1,6 @@
+1. app.vue 类似 main 主入口,它的主要标签有 script, template, style
+
+2.添加一个组件:
+2.1 在组件库中写好一个页面内容
+2.2 将组件注册到app.vue中去:
+import Person from './xxx/xxx.vue'
