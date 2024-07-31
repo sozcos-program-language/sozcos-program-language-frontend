@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue3 的 setup</title>
+    <script src="https://cdn.staticfile.net/vue/3.2.36/vue.global.min.js"></script>
+    <style>
+        .label {
+            background-color: #469feb;
+            margin: 10px;
+            font-size: 50px;
+        }
+
+        .label input {
+            margin: 0 10px;
+            font-size: 50px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="label" id="vue-setup">
+    <div>姓名: {{name}}</div>
+    <div>年龄: {{age}}</div>
+    <input type="button" @click="changeName" value="更改名字">
+    <input type="button" @click="changeAge" value="更改年龄">
+    <input type="button" @click="showTel" value="查看电话">
+</div>
+<script>
+    const HelloVueApp = {
+        setup() {
+            let name = '张三';
+            let age = 18;
+            let tel = 18855544555;
+
+            function changeName() {
+                name = '张三2'
+            }
+
+            function changeAge() {
+                age = 21
+            };
+
+            function showTel() {
+                alert(tel)
+            }
+
+            return {name, age, showTel, changeAge, changeName}
+        }
+    }
+
+    Vue.createApp(HelloVueApp).mount('#vue-setup')
+</script>
+</body>
+</html>
