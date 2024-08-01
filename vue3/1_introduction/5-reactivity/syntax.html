@@ -82,14 +82,31 @@
     <button @click="doSomething">简写版本的事件监听</button>
 </div>
 
+<div class="stage">
+    <h3>{{dataValue}}</h3>
+</div>
+
 <script>
+
+
     const HelloVueApp = {
+        /*
+            在vue中, setup 会最先执行, 因此数据也会初始化完成
+            因此, data, methods 都可以通过this来访问 setup 中的参数
+            但是反之则不行
+         */
+        data() {
+            return {
+                dataValue: this.name2
+            }
+        },
         setup() {
             function doSomething() {
-                alert("我是一个函数");
+                alert(tel);
             }
 
             return {
+                name2: '张三2',
                 name: '张三',
                 age: 18,
                 tel: 18855544555,

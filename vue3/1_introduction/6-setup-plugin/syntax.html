@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue3-基本语法</title>
+    <script src="https://cdn.staticfile.net/vue/3.2.36/vue.global.min.js"></script>
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body id="vue-syntax">
+
+<h1>setup 语法糖</h1>
+
+<div class="stage">
+    <div>姓名: {{name}}</div>
+    <div>年龄: {{age}}</div>
+    <input v-on:click="showTel" type="button" value="点击查看手机号码"/>
+</div>
+
+<script>
+    const HelloVueApp = {
+        setup() {
+            function showTel() {
+                alert(18888888888);
+            }
+
+            return {
+                name: '张三',
+                age: 18,
+                showTel,
+            }
+        }
+    }
+
+    Vue.createApp(HelloVueApp).mount('#vue-syntax')
+</script>
+</body>
+</html>
