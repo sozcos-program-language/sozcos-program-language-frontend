@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue3-基本语法</title>
+    <script src="https://cdn.staticfile.net/vue/3.2.36/vue.global.min.js"></script>
+    <style>
+        body {
+            background-color: #1b1b32;
+            color: orangered;
+        }
+
+        .stage {
+            margin: 10px;
+            border: 2px solid orangered;
+            padding: 10px;
+            display: grid;
+        }
+
+        .stage * {
+            margin: 10px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+
+</head>
+<body id="vue-syntax">
+<h1>模板语法</h1>
+
+<div class="stage">
+    <h3>插值</h3>
+    <div>{{name}}</div>
+</div>
+
+<div class="stage">
+    <h3>指令</h3>
+    <div>指令是带有前缀 v- 的特殊属性，用于在模板中表达逻辑。</div>
+    <div>一个指令的任务是在其表达式的值变化时响应式地更新 DOM。</div>
+    <a href="https://www.baidu.com">我是一个正常的a标签</a>
+    <a v-bind:href="url">我是一个vue绑定标签</a>
+    <a :href="url">vue 简写a标签</a>
+</div>
+
+<div class="stage">
+    <h3>v-if: 条件渲染</h3>
+    <p v-if="seen">你能看到我吗?</p>
+</div>
+
+<div class="stage">
+    <h3>v-for: 列表渲染。</h3>
+    <ul>
+        <li v-for="item in items" :key="item.key">{{ item.value }}</li>
+    </ul>
+</div>
+
+
+<div class="stage">
+    <h3>v-model: 双向数据绑定。</h3>
+    <p> View 的改变能实时让 Model 发生变化，而 Model 的变化也能实时更新 View</p>
+    <label>
+        <input v-model="message" placeholder="edit me">
+    </label>
+    <p>Message is: {{ message }}</p>
+</div>
+
+<div class="stage">
+    <h3>v-on: 事件监听器。</h3>
+    <button v-on:click="doSomething">Click me</button>
+    <button @click="doSomething">简写版本的事件监听</button>
+</div>
+
+<div class="stage">
+    <h3>指令的参数</h3>
+    <p>v-bind:id 冒号后面的就是指令的参数, 这个参数也可以是一个js的表达式, 用[]包起来, 也叫动态参数</p>
+    <p>v-bind:[age]</p>
+    <button v-on:click="doSomething">Click me</button>
+    <button @click="doSomething">简写版本的事件监听</button>
+</div>
+
+<script>
+    const HelloVueApp = {
+        setup() {
+            function doSomething() {
+                alert("我是一个函数");
+            }
+
+            return {
+                name: '张三',
+                age: 18,
+                tel: 18855544555,
+                url: "https://www.baidu.com",
+                seen: true,
+                message: '我是一个消息',
+                items: [
+                    {
+                        key: 1,
+                        value: 'item1'
+                    }
+                ],
+                doSomething
+
+            }
+        }
+    }
+
+    Vue.createApp(HelloVueApp).mount('#vue-syntax')
+</script>
+</body>
+</html>
