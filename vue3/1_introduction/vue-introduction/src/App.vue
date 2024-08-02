@@ -1,7 +1,4 @@
 <template>
-  <div class="app">
-    <h1>你好啊</h1>
-  </div>
   <Person/>
 </template>
 
@@ -16,8 +13,4 @@ export default {
 
 
 <style>
-.app {
-  background-color: #1b1b32;
-  color: orangered;
-}
 </style>

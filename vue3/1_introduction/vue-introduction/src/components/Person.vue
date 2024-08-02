@@ -1,40 +1,26 @@
 <template>
-  <div class="person">
-    <h1>使用 Objects.assign 克隆响应对象</h1>
-    <p>
-      当一个响应对象被重新赋值后, 它就不是一个响应对象, 要使用 Objects.assign 进行拷贝
-    </p>
-
-    <hr>
-
-    <div>品牌: {{ car.name }} 价格: {{ car.price }}</div>
-    <button @click="changePrice">修改名称</button>
+  <div id="app">
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+    <div class="w-96 bg-white shadow rounded">111</div>
+    <div class="grid grid-cols-10 gap-2">
+      <div class="bg-sky-50 aspect-square"></div>
+      <div class="bg-sky-100 aspect-square"></div>
+      <div class="bg-sky-200 aspect-square"></div>
+      <div class="bg-sky-300 aspect-square"></div>
+      <div class="bg-sky-400 aspect-square"></div>
+      <div class="bg-sky-500 aspect-square"></div>
+      <div class="bg-sky-600 aspect-square"></div>
+      <div class="bg-sky-700 aspect-square"></div>
+      <div class="bg-sky-800 aspect-square"></div>
+      <div class="bg-sky-900 aspect-square"></div>
+    </div>
   </div>
 </template>
 
-<script setup name="Car">
-import {reactive, ref} from "vue";
+<script setup>
 
-let car = reactive({
-  name: '宝马',
-  price: 100
-})
-
-function changePrice() {
-  car = Object.assign(car, {name: '奔驰', price: 1});
-}
 </script>
 
-<style scoped>
-body {
-  background-color: #1b1b32;
-  color: orangered;
-  font-size: 30px;
-}
-
-.person * {
-  margin: 10px;
-  font-size: 25px;
-  font-weight: 800;
-}
-</style>
+<style></style>
