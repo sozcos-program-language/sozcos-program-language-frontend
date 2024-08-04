@@ -1,58 +1,40 @@
 <template>
-  <div class="title">compute 计算属性</div>
-  <a href="https://www.bilibili.com/video/BV1Za4y1r7KE/?p=16&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
+  <h1>watch 数据监听</h1>
+  <a href="https://www.bilibili.com/video/BV1Za4y1r7KE?p=17&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
+
+  <hr>
   <p>
-    使用 toRefs 进行对象的拷贝, 这样才能保证响应式
+    watch 只监听 ref /reactive /getter 以及 上述内容的数据
   </p>
-  姓: <input type="text" v-model="firstName"><br>
-  名: <input type="text" v-model="lastName"><br>
-  <div>全名: {{ fullName }}</div>
 
-  <button @click="changeName">修改全名</button>
+  <h2>场景1: 监听 ref 定义的 基本类型 数据</h2>
+  <div>当前求和: {{ sum }}</div>
+  <button @click="changeSum">点我sum+1</button>
 
+  <h2></h2>
 </template>
 
 <script setup>
-import {computed, ref} from "vue";
+import {ref, watch} from "vue";
 
-let firstName = ref('zhang')
-let lastName = ref('san')
+let sum = ref(0);
 
-// 计算属性是只读的
-// let fullName = computed(() => {
-//   return firstName.value.slice(0, 1).toUpperCase() + firstName.value.slice(1) + '-' + lastName.value
-// })
-
-// 可读可写的属性
-let fullName = computed({
-  get() {
-    return firstName.value.slice(0, 1).toUpperCase() + firstName.value.slice(1) + '-' + lastName.value
-  },
-  set(val) {
-    const [s1, s3] = val.split('-');
-    firstName.value = s1
-    lastName.value = s3
-  }
-});
-
-
-function changeName() {
-  fullName.value = 'li-si';
+function changeSum() {
+  sum.value += 1
 }
 
-
+watch(sum, (newValue, oldValue) => {
+  console.log(newValue, oldValue);
+})
 </script>
 
 <style>
 body {
-  color: orangered;
-}
-
-body * {
+  font-family: "Arial", Helvetica, sans-serif;
+  background-color: skyblue;
   margin: 30px auto;
+  font-size: 25px;
+  padding-left: 30px;
 }
 
-.title {
-  font-size: 30px;
-}
 </style>
