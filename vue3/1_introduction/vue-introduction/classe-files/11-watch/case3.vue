@@ -1,6 +1,9 @@
 <template>
   <h1>watch 监听</h1>
   <a href="https://www.bilibili.com/video/BV1Za4y1r7KE?p=19&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
+  <p>
+    watch 监听 reactive 对象类型数据
+  </p>
   <hr>
   <div>姓名: {{ person.name }}</div>
   <div>年龄: {{ person.age }}</div>
