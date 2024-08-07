@@ -1,5 +1,5 @@
 <template>
-  <Menu/>
+  <Person/>
 </template>
 
 <script>
