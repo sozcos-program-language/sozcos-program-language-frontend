@@ -52,20 +52,21 @@ function changec3() {
 }
 
 // 通过getter函数类实现对对象的属性进行监听
-watch(() => person.name, (newValue, oldValue) => {
-  console.log('监听person.name:', newValue, oldValue);
-})
+// watch(() => person.name, (newValue, oldValue) => {
+//   console.log('监听person.name:', newValue, oldValue);
+// })
 
 // 监听对象的内部对象
 // 当没有使用 getter 函数的时候, 实际上监听的是对象的地址值, 只有使用了 getter 函数, 才会监听内部对象的属性
 // watch(person.car, (newValue, oldValue) => {
-watch(() => person.car, (newValue, oldValue) => {
+// watch(() => person.car, (newValue, oldValue) => {
+//   console.log('监听person.car:', newValue, oldValue);
+// }, {deep: true});// 开启了深度监听, 这样监听对象的内部属性变化的时候也会监听到
+
+// 使用数组来监听多个属性
+watch([() => person.name, () => person.car], (newValue, oldValue) => {
   console.log('监听person.car:', newValue, oldValue);
-}, {deep: true});// 开启了深度监听, 这样监听对象的内部属性变化的时候也会监听到
-
-
-
-
+}, {deep: true});
 </script>
 
 <style>
