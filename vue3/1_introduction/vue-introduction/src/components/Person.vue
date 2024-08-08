@@ -58,8 +58,9 @@ body {
   padding-left: 30px;
 }
 
-.active {
-  background-color: orangered;
+button {
+  margin: 10px;
+  font-size: 25px;
 }
 
 </style>
