@@ -11,6 +11,19 @@
 </template>
 
 <script setup lang="ts" name="Person">
+// 引入接口的时候必须使用type来声明
+// @符号表示从src开始向下找目录
+import {type Person, type personList, type persons} from "@/types";
+
+// 声明一个 person 类型的对象
+let person: Person = {id: 'asdf001', name: '张三', age: 90}
+
+// 声明一个数组类型为 Person 的变量
+let persons: Array<Person> = [
+  {id: 'asdf001', name: '张三', age: 90},
+  {id: 'asdf002', name: '李四', age: 10},
+  {id: 'asdf003', name: '王五', age: 20}
+]
 
 
 </script>
