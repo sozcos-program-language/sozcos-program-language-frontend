@@ -1,55 +1,34 @@
 <template>
-  <h1>watch 监听</h1>
-  <a href="https://www.bilibili.com/video/BV1Za4y1r7KE?p=22&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
+  <h1>TS 的接口, 泛型, 自定义类型</h1>
+  <a href="https://www.bilibili.com/video/BV1Za4y1r7KE?p=24&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
 
   <p>
-    使用 watchEffect 实现隐式监听
+    ???
   </p>
 
   <hr>
 
-  <h2>当温度达到60℃, 水位达到 80cm 的时候, 向服务器发送请求</h2>
-  <div>温度: {{ wendu }} ℃</div>
-  <div>水位: {{ shuiwei }} cm</div>
-  <button @click="changeName">添加温度</button>
-  <button @click="changeAge">添加水位</button>
-
-  <h2></h2>
 </template>
 
-<script setup>
-import {ref, watchEffect} from "vue";
+<script setup lang="ts" name="Person">
+// 引入接口的时候必须使用type来声明
+// @符号表示从src开始向下找目录
+import {type Person, type personList, type persons} from "@/types";
 
-let wendu = ref(0)
-let shuiwei = ref(0)
+// 声明一个 person 类型的对象
+let person: Person = {id: 'asdf001', name: '张三', age: 90}
 
-function changeName() {
-  wendu.value += 10
-}
-
-function changeAge() {
-  shuiwei.value += 10
-}
-
-// watch 需要显式的声明监听的属性, 当属性多的时候, 这样代码就会不好看, 因此使用 watchEffect 来解决这个问题
-// watch([wendu, shuiwei], (newValue) => {
-//   let [newWendu, newShuiwei] = newValue;
-//   if (newWendu >= 60 || newShuiwei >= 80) {
-//     console.log('发送请求到服务器');
-//   }
-// })
-
-
-watchEffect(() => {
-  if (wendu.value >= 60 || shuiwei.value >= 80) {
-    console.log('发送请求到服务器');
-  }
-})
+// 声明一个数组类型为 Person 的变量
+let persons: Array<Person> = [
+  {id: 'asdf001', name: '张三', age: 90},
+  {id: 'asdf002', name: '李四', age: 10},
+  {id: 'asdf003', name: '王五', age: 20}
+]
 
 
 </script>
 
-<style>
+<style scoped>
 body {
   font-family: "Arial", Helvetica, sans-serif;
   background-color: skyblue;
