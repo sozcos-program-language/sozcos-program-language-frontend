@@ -21,8 +21,7 @@
 |---------------|---------------------|---------------|
 | [CSS 教程]      | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查]    |
 | [十七分钟CSS快速入门] | [通过创建一组彩色笔练习 CSS]   | [MDN-CSS属性列表] |
-
-#### [CSS现状和如何学习](https://w3cplus.medium.com/css%E7%8E%B0%E7%8A%B6%E5%92%8C%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0-1ac786328761)
+| [CSS现状和如何学习]  |                     |               |
 
 ---
 
@@ -50,7 +49,6 @@
 
 ---
 
-
 # JavaScript
 
 | 教程      | 练习 | 手册 |
@@ -58,30 +56,27 @@
 | [JS 教程] |    |    |
 
 - ## [JavaScript 入门](js/1_introduction/README.md)
-  - ### [JS 入门: 基本语法](js/1_introduction/1_vocabulary/README.md)
-
-
+    - ### [JS 入门: 基本语法](js/1_introduction/1_vocabulary/README.md)
 
 ---
 
-# [VUE3] 
+# [VUE3]
 
 - ## [vue3 基础](vue3/1_introduction/README.md)
-  - ### [VUE3 入门: 引入式创建 vue 项目](vue3/1_introduction/1-intro/README.md)
-  - ### [VUE3: vue 的 setup](vue3/1_introduction/2-setup/README.md)
-  - ### [VUE3 入门: 基本语法](vue3/1_introduction/3-syntax/README.md)
-  - ### [VUE3 入门: 指令](vue3/1_introduction/4-directives/README.md)
-  - ### [VUE3 入门: 响应式](vue3/1_introduction/4-directives/README.md)
-  - ### [VUE3 入门: setup 插件](vue3/1_introduction/6-setup-plugin/README.md)
-  - ### [VUE3 入门: 基本类型的响应式 ref](vue3/1_introduction/vue-introduction/classe-files/7-ref/README.md)
-  - ### [VUE3 入门: 对象类型的响应式 reactive](vue3/1_introduction/vue-introduction/classe-files/8-reactive/README.md)
-  - ### [VUE3 入门: 对象类型的克隆 Object.assign](vue3/1_introduction/vue-introduction/classe-files/9-assign/README.md)
-  - ### [VUE3 入门: 计算属性 compute](vue3/1_introduction/vue-introduction/classe-files/10-computed/Person.vue)
-  - ### [VUE3 入门: 数据监听 watch](vue3/1_introduction/vue-introduction/classe-files/11-watch)
-  - ### [VUE3 入门: 样式绑定](vue3/1_introduction/vue-introduction/classe-files/12-bind-class/Person.vue)
-  - ### [VUE3 入门: 实现隐式监听 watchEffect](vue3/1_introduction/vue-introduction/classe-files/13-watchEffect/watchEffect.vue)
-  - ### [VUE3 入门: TS 的接口, 泛型, 自定义类型](vue3/1_introduction/vue-introduction/classe-files/14-ts/Person.vue)
-
+    - ### [VUE3 入门: 引入式创建 vue 项目](vue3/1_introduction/1-intro/README.md)
+    - ### [VUE3: vue 的 setup](vue3/1_introduction/2-setup/README.md)
+    - ### [VUE3 入门: 基本语法](vue3/1_introduction/3-syntax/README.md)
+    - ### [VUE3 入门: 指令](vue3/1_introduction/4-directives/README.md)
+    - ### [VUE3 入门: 响应式](vue3/1_introduction/4-directives/README.md)
+    - ### [VUE3 入门: setup 插件](vue3/1_introduction/6-setup-plugin/README.md)
+    - ### [VUE3 入门: 基本类型的响应式 ref](vue3/1_introduction/vue-introduction/classe-files/7-ref/README.md)
+    - ### [VUE3 入门: 对象类型的响应式 reactive](vue3/1_introduction/vue-introduction/classe-files/8-reactive/README.md)
+    - ### [VUE3 入门: 对象类型的克隆 Object.assign](vue3/1_introduction/vue-introduction/classe-files/9-assign/README.md)
+    - ### [VUE3 入门: 计算属性 compute](vue3/1_introduction/vue-introduction/classe-files/10-computed/Person.vue)
+    - ### [VUE3 入门: 数据监听 watch](vue3/1_introduction/vue-introduction/classe-files/11-watch)
+    - ### [VUE3 入门: 样式绑定](vue3/1_introduction/vue-introduction/classe-files/12-bind-class/Person.vue)
+    - ### [VUE3 入门: 实现隐式监听 watchEffect](vue3/1_introduction/vue-introduction/classe-files/13-watchEffect/watchEffect.vue)
+    - ### [VUE3 入门: TS 的接口, 泛型, 自定义类型](vue3/1_introduction/vue-introduction/classe-files/14-ts/Person.vue)
 
 ---
 
@@ -109,6 +104,8 @@
 [CSS]: css/README.md
 
 [MDN-CSS属性列表]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+[CSS现状和如何学习]: https://w3cplus.medium.com/css%E7%8E%B0%E7%8A%B6%E5%92%8C%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0-1ac786328761
 
 [JS]: js/README.md
 
