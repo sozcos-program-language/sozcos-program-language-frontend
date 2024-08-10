@@ -1,4 +1,4 @@
-# 编程语言之旅: HTML/[CSS]/[JS]
+# 编程语言之旅: HTML / [CSS] / [JS] / [VUE3]
 
 ### [前端学习在线路线图](https://objtube.github.io/front-end-roadmap/#/)
 
@@ -60,6 +60,29 @@
 - ## [JavaScript 入门](js/1_introduction/README.md)
   - ### [JS 入门: 基本语法](js/1_introduction/1_vocabulary/README.md)
 
+
+
+---
+
+# [VUE3] 
+
+- ## [vue3 基础](vue3/1_introduction/README.md)
+  - ### [VUE3 入门: 引入式创建 vue 项目](vue3/1_introduction/1-intro/README.md)
+  - ### [VUE3: vue 的 setup](vue3/1_introduction/2-setup/README.md)
+  - ### [VUE3 入门: 基本语法](vue3/1_introduction/3-syntax/README.md)
+  - ### [VUE3 入门: 指令](vue3/1_introduction/4-directives/README.md)
+  - ### [VUE3 入门: 响应式](vue3/1_introduction/4-directives/README.md)
+  - ### [VUE3 入门: setup 插件](vue3/1_introduction/6-setup-plugin/README.md)
+  - ### [VUE3 入门: 基本类型的响应式 ref](vue3/1_introduction/vue-introduction/classe-files/7-ref/README.md)
+  - ### [VUE3 入门: 对象类型的响应式 reactive](vue3/1_introduction/vue-introduction/classe-files/8-reactive/README.md)
+  - ### [VUE3 入门: 对象类型的克隆 Object.assign](vue3/1_introduction/vue-introduction/classe-files/9-assign/README.md)
+  - ### [VUE3 入门: 计算属性 compute](vue3/1_introduction/vue-introduction/classe-files/10-computed/Person.vue)
+  - ### [VUE3 入门: 数据监听 watch](vue3/1_introduction/vue-introduction/classe-files/11-watch)
+  - ### [VUE3 入门: 样式绑定](vue3/1_introduction/vue-introduction/classe-files/12-bind-class/Person.vue)
+  - ### [VUE3 入门: 实现隐式监听 watchEffect](vue3/1_introduction/vue-introduction/classe-files/13-watchEffect/watchEffect.vue)
+  - ### [VUE3 入门: TS 的接口, 泛型, 自定义类型](vue3/1_introduction/vue-introduction/classe-files/14-ts/Person.vue)
+
+
 ---
 
 
@@ -90,3 +113,5 @@
 [JS]: js/README.md
 
 [JS 教程]: https://zh.javascript.info/
+
+[VUE3]: vue3/README.md

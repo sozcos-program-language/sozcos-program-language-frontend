@@ -1,9 +1,6 @@
 <template>
   <div class="title">compute 计算属性</div>
   <a href="https://www.bilibili.com/video/BV1Za4y1r7KE/?p=16&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f">教程地址</a>
-  <p>
-    使用 toRefs 进行对象的拷贝, 这样才能保证响应式
-  </p>
   姓: <input type="text" v-model="firstName"><br>
   名: <input type="text" v-model="lastName"><br>
   <div>全名: {{ fullName }}</div>

@@ -1,4 +1,4 @@
-# VUE3 入门: 响应式
+# VUE3 入门: setup 插件
 
 ### [文档地址](https://cn.vuejs.org/guide/essentials/reactivity-fundamentals.html)
 
