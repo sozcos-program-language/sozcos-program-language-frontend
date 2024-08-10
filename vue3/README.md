@@ -4,7 +4,7 @@
 
 ### 修改 npm 镜像地址
 ```shell
-npm config set registry https://registry.npm.taobao.org 
+npm config set registry https://registry.npmmirror.com
 ```
 
 ### 使用 vite 创建vue项目
