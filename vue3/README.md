@@ -2,6 +2,11 @@
 
 ### [内置指令列表](https://cn.vuejs.org/api/built-in-directives.html)
 
+### 使用 vue 模板创建项目
+```shell
+npm create vue@latest
+```
+
 ### 修改 npm 镜像地址
 ```shell
 npm config set registry https://registry.npmmirror.com
