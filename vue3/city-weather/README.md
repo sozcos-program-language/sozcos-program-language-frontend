@@ -1,7 +1,9 @@
 # City Weather
 
-## [【Vue3实战项目】使用 Vue3 和 Tailwind CSS 构建天气应用](https://www.bilibili.com/video/BV1514y1Y7hH?p=1&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f)
+- ### [【Vue3实战项目】使用 Vue3 和 Tailwind CSS 构建天气应用](https://www.bilibili.com/video/BV1514y1Y7hH?p=1&vd_source=b5c04f54b8a7ce0b4d5deef9989f7f9f)
+- ### [图标库](https://fontawesome.com/icons)
 
+---
 ### 创建项目
 
 ```shell
