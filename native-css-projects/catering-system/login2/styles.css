@@ -1,0 +1,25 @@
+#wrap {
+    /*vh是一个新的单位, 表示将纵向的分割成100个表格, vw同*/
+    height: 100vh;
+    /*
+        文档流默认是从上到下的, 因此需要使用弹性布局将这个容器内的元素布局改变
+        定义这个容器内的元素规则,
+        让行级元素编程块级元素
+     */
+    display: flex;
+    flex-direction: column;
+    /*剧中对其*/
+    align-items: center;
+    justify-content: center;
+
+    background: url("../images/backgroud.png");
+    background-size: cover;
+}
+
+
+#wrap p {
+    margin-bottom: 50px;
+    background-color: white;
+    height: 40px;
+    border-radius: 30px;
+}

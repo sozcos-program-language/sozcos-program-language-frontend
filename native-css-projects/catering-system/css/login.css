@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
 
-    /*添加北京图*/
+    /*添加背景图*/
     background: url("../images/backgroud.png");
     background-size: cover;
 }
