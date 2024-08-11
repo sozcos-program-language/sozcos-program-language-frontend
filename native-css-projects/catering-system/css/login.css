@@ -1,0 +1,82 @@
+#wrap {
+    /*vh是一个新的单位, 表示将纵向的分割成100个表格, vw同*/
+    height: 100vh;
+    display: flex;
+    /*    元素垂直配列*/
+    flex-direction: column;
+    /*剧中对其*/
+    align-items: center;
+    justify-content: center;
+
+    /*添加北京图*/
+    background: url("../images/backgroud.png");
+    background-size: cover;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 100px;
+}
+
+#wrap p {
+    width: 550px;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    font-size: 25px;
+    /*    圆角*/
+    border-radius: 30px;
+    line-height: 65px;
+    /*相对定位*/
+    position: relative;
+}
+
+#wrap label {
+    width: 130px;
+    background: orange;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#wrap input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    color: #b2b2b2;
+    padding-left: 10px;
+    border-radius: 0 30px 30px 0;
+}
+
+#wrap .tips {
+    /*绝对定位*/
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 14px;
+    color: red;
+}
+
+/*
+:: => 伪元素央视
+: => 伪类
+*/
+input::placeholder {
+    color: #ccc;
+    font-size: 15px;
+}
+
+#wrap button {
+    width: 120px;
+    height: 65px;
+    margin: 0 10px;
+    background: orange;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+/*选中第二个button*/
+#wrap button:nth-child(2) {
+    background: red;
+}
