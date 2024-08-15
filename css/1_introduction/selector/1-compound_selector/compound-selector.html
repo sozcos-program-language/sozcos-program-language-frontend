@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 复合选择器</title>
+    <style>
+        /*
+            选中p元素并且class = beauty 的标签
+            多个类: .classa.classb{}
+            但是不能多个标签
+        */
+        p.beauty {
+            color: green;
+        }
+
+        .beauty,
+        .good {
+            background-color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My CSS 复合选择器</h1>
+<h2>交集选择器: 且</h2>
+<div class="beauty">啊啊啊</div>
+<p class="beauty">啊啊啊</p>
+
+<hr>
+
+<h1>My CSS 并集(或)选择器</h1>
+<p class="good">
+    一个样式需要应用到不同的样式块中的时候, 可以使用或选择器
+    .c1, .c2, .c3{}
+</p>
+
+<hr>
+
+<h2>HTML 元素间的关系</h2>
+
+
+</body>
+</html>

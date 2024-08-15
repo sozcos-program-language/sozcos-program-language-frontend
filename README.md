@@ -21,7 +21,7 @@
 |---------------|---------------------|---------------|
 | [CSS 教程]      | [通过创建咖啡店菜单学习基础 CSS] | [CSS 属性速查]    |
 | [十七分钟CSS快速入门] | [通过创建一组彩色笔练习 CSS]   | [MDN-CSS属性列表] |
-| [CSS现状和如何学习]  |                     |               |
+| [CSS现状和如何学习]  |                     | [MDN-CSS选择器]  |
 
 ---
 
@@ -104,6 +104,8 @@
 [CSS]: css/README.md
 
 [MDN-CSS属性列表]: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+[MDN-CSS选择器]: https://developer.mozilla.org/zh-CN/docs/Web/CSS
 
 [CSS现状和如何学习]: https://w3cplus.medium.com/css%E7%8E%B0%E7%8A%B6%E5%92%8C%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0-1ac786328761
 
