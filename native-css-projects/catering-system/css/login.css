@@ -9,7 +9,7 @@
     justify-content: center;
 
     /*添加背景图*/
-    background: url("../images/backgroud.png");
+    background: url("../images/background.png");
     background-size: cover;
 }
 
