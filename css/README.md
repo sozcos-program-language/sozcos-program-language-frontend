@@ -10,6 +10,8 @@
 | [CSS 属性速查]         |
 | [前端学习在线路线图]        |
 | [CSS 基础练习: 咖啡菜单案例] |
+| [后端如何学好 css]       |
+| [学习CSS布局]          |
 
 </td><td>
 
@@ -74,3 +76,7 @@
 [通过创建照片集学习 CSS 弹性盒子]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1
 
 [通过创建营养标签学习排版]: https://www.freecodecamp.org/chinese/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-1
+
+[后端如何学好 css]: https://v2ex.com/t/873641
+
+[学习CSS布局]: https://zh.learnlayout.com/
